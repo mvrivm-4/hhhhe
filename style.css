@@ -63,10 +63,9 @@ li a:hover{
         font-family: cursive;
         font-size: 20px;
         width: 700px;   /* على قد الكلام */
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
         z-index: 10;   /* عشان تظهر فوق الصور */  }
   body{
-    background-color:rgb(253, 252, 252);
+        background-color: white;
 
   }
   .ss{
