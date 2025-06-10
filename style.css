@@ -1,0 +1,100 @@
+.cen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+nav{
+    box-shadow: 3px 4px 10px 5px rgba(0, 0, 0, 0.447) ;
+}
+
+ul.navbar-nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  width: 100%;
+  padding-left: 0; /* إزالة المسافة الجانبية من ul */
+}
+.rr{
+    color: rgba(0, 0, 255, 0.691);
+    font-size: 25px;
+    
+}
+.rrr{
+    font-size: 13px;
+
+}
+.res{
+    height: 100vh;
+}
+.cen,nav{
+    width: 100%;
+}
+li a:hover{
+    color: blue;
+}
+  .res {
+    height: 70vh; 
+    overflow: hidden;
+    /* أقل من 100vh */
+  }
+  
+  .carousel-inner img {
+    height: 100%;
+    object-fit: cover; /* حتى لا تتشوه الصورة وتملأ الإطار */
+    position: relative;  /* لازم عشان الـ absolute يشتغل صح جواها */
+
+  }
+    .tt {
+        position: absolute;
+        bottom: 30px;     /* المسافة من فوق السلايدر */
+        right: 20px;    /* المسافة من اليسار */
+        background-color: white;
+        padding: 15px 20px;
+        height: 300px;
+        font-family: cursive;
+        font-size: 20px;
+        width: 700px;   /* على قد الكلام */
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        z-index: 10;   /* عشان تظهر فوق الصور */  }
+  body{
+    background-color:rgb(253, 252, 252);
+
+  }
+  .ss{
+    font-family: cursive;
+    font-size: 40px;
+
+
+  }
+  .ff{
+    margin-left: 100px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+  }
+  @media(max-width:767px) {
+    .tt{
+        height: 300px;
+        font-size: 15px;
+        margin: none;
+    }
+    .ff{
+        margin-left: 10px;}
+        .tt{
+            bottom: 90px;
+            transform: translateX(10px);
+            width: 360px;
+        }
+    
+  }
+
+  
